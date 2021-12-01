@@ -1,0 +1,115 @@
+
+* {padding: 0; margin: 0}
+
+body{font-family: Arial;background-size: cover}
+
+.first{background-image: url(../Photos/1.jpg)}
+
+.second{background-image: url(../Photos/2.jpg)}
+
+.third{background-image: url(../Photos/3.jpg)}
+
+/* =============== The Container =============== */
+.container{
+    background: #DDD;
+    margin: 50px auto;
+    padding: 5px;
+    width: 500px;
+    box-shadow: 4px 6px 10px #BBB;
+}
+
+/* =============== The Form =============== */
+.container form{
+    background: #CCC;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.container form h1{
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.container form input{
+    padding: 5px;
+    border: none;
+    font-size: 18px;
+    background: #EEE;
+}
+
+.container form input[type="text"]{
+    width: 73.6%;
+    border-radius: 5px 0 0 5px;
+}
+
+.container form input[type="button"]{
+    width: 23.6%;
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid #CCC;
+    cursor: pointer;
+}
+
+.container form input[type="button"]:hover{
+    background: #BBB;
+}
+
+.container form h4{
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+    font-weight: 100;
+}
+
+/* =============== The List =============== */
+.container .child{
+    background: #CCC;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.container .child h2{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 100;    
+}
+
+.container .child ul{
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin: 10px;
+}
+
+.container .child ul li{
+    background: #999;
+    margin: 2.5px;
+    padding: 8px;
+    font-size: 20px;
+    word-wrap: break-word;
+    border-radius: 5px;
+}
+
+.container .child ul li .fas{
+    float: right;
+    margin: 0 5px;
+    font-size: 20px;
+}
+
+.container .child ul li .fas:hover{
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* =============== The Clock =============== */
+#clock{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 5px
+}
+
+/* =============== The Show =============== */
+#show{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 5px
+}
